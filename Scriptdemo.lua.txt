@@ -21,7 +21,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
   })
 
        MinimizeButton({
-       Image = "http://www.roblox.com/asset/?id=83190276951914",
+       Image = "http://www.roblox.com/asset/?id=77821503697536",
        Size = {60, 60},
        Color = Color3.fromRGB(10, 10, 10),
        Corner = true,
@@ -31,19 +31,20 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
       
 ------ Tab
      local Tab1o = MakeTab({Name = "fly"})
-     local Tab2o = MakeTab({Name = "hit box"})
+     local Tab2o = MakeTab({Name = "chua co"})
 ------- BUTTON
     
     AddButton(Tab1o, {
-     Name = "fly hub",
+     Name = "fly",
     Callback = function()
 	loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-OP-FLY-GUI-v1-95281"))()
   end
   })
   
-  AddButton(Tab2o, {
-     Name = "hit box",
+  AddButton(Tab1o, {
+     Name = "hitbox",
     Callback = function()
-	  loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Hit-box-remake-6723"))()
+	loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Hit-box-remake-6723"))()
   end
   })
+  
